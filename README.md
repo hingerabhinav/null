@@ -1,2 +1,12 @@
 # null
-Python "3.11" microservice null created via the DCP Golden Path
+
+Python "3.11" microservice owned by **null**, scaffolded by the DCP Golden Path.
+
+## Run locally
+
+```bash
+pip install -r requirements.txt
+uvicorn main:app --host 0.0.0.0 --port 8000
+```
+
+Health check endpoint: `GET /healthz`
